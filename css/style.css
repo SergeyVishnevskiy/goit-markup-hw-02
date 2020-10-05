@@ -46,7 +46,7 @@ background: #2F303A;
 .items-text {
     color: var(--title-text-color);
 }
-.team-title {
+.team-title, .items-title {
     color: var(--primary-text-color);
 }
 /* footer */
@@ -55,6 +55,12 @@ footer {
 }
 .studio-footer, .city {
     color: var(--white-color);
+}
+.contacts-footer {
+    color: rgba(255, 255, 255, 0.6);
+}
+.contacts-footer:hover, .contacts-footer:focus {
+    color: var(--accent-color);
 }
 
 /* button */
@@ -66,6 +72,16 @@ footer {
     color: var(--white-color);
     background-color: var(--accent-color);
 }
+.botton .secondary {
+    color: var(--primary-text-color)
+    background-color: #F5F4FA;
+}
+
+.portfolio {
+    background-color: #E5E5E5;
+}
+
+
 
 /* Палитра цветов */
 
