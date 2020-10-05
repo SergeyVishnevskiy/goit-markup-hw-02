@@ -1,5 +1,11 @@
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF
+}
 body {
-    color: #212121;
+    color: var(--primary-text-color);
 }
 a {
     text-decoration: none;
@@ -12,49 +18,54 @@ a {
     text-decoration: none;
 }
 .web { 
-    color: #2196F3 ;
+    color: var(--accent-color);
 }
 .studio-header {
-    color: #212121;
+    color:var(--primary-text-color);
 }
-
-
 /* site nav */
 .nav .link {
-    color: #212121;
+    color: var(--primary-text-color);
 }
-.nav .link:hover, 
-.nav .link:focus {
-    color: #2196F3;
+.nav .link:hover, .nav .link:focus {
+    color: var(--accent-color);
 }
 .contacts {
-    color: #757575;
+    color: var(--title-text-color);
 }
 .contacts:hover, .contacts:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 /* мейн */
 .main-banner {
 background: #2F303A;
 }
 .main-banner-title, .main-banner-link {
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 .items-text {
-    color: #757575;
+    color: var(--title-text-color);
 }
 .team-title {
-    color: #212121;
+    color: var(--primary-text-color);
 }
 /* footer */
 footer {
     background-color: #2F303A;
 }
 .studio-footer, .city {
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 
-
+/* button */
+.botton {
+    color: var(--primary-text-color);
+    background-color: #F5F4FA; 
+}
+.botton.primary {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
 
 /* Палитра цветов */
 
