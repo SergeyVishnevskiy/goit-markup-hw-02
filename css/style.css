@@ -1,3 +1,61 @@
+body {
+    color: #212121;
+}
+a {
+    text-decoration: none;
+}
+.list {
+    list-style: none; 
+}
+/* Logo */
+.logo {
+    text-decoration: none;
+}
+.web { 
+    color: #2196F3 ;
+}
+.studio-header {
+    color: #212121;
+}
+
+
+/* site nav */
+.nav .link {
+    color: #212121;
+}
+.nav .link:hover, 
+.nav .link:focus {
+    color: #2196F3;
+}
+.contacts {
+    color: #757575;
+}
+.contacts:hover, .contacts:focus {
+    color: #2196F3;
+}
+/* мейн */
+.main-banner {
+background: #2F303A;
+}
+.main-banner-title, .main-banner-link {
+    color: #FFFFFF;
+}
+.items-text {
+    color: #757575;
+}
+.team-title {
+    color: #212121;
+}
+/* footer */
+footer {
+    background-color: #2F303A;
+}
+.studio-footer, .city {
+    color: #FFFFFF;
+}
+
+
+
 /* Палитра цветов */
 
 /* цвет основного текста #212121, 100 % */
