@@ -30,6 +30,9 @@ a {
 .nav .link:hover, .nav .link:focus {
     color: var(--accent-color);
 }
+.nav .link.current {
+    color: var(--accent-color);
+}
 .contacts {
     color: var(--title-text-color);
 }
